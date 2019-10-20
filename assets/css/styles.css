@@ -1,0 +1,217 @@
+.navbar-brand {
+  display:none;
+}
+
+#nav {
+  background-color:#f8c6a0;
+  box-shadow:0px 3px 3px black;
+  position:sticky;
+  top:0;
+  color:white;
+  z-index:99;
+  display:block;
+}
+
+#hero {
+  height:90vh;
+  background:url("../../assets/img/muthi and ndlovu.jpg") no-repeat;
+  background-size:cover;
+  color:white;
+  margin:0;
+  padding:40px 20px;
+}
+
+.jumbotron.d-flex.flex-column.justify-content-center.align-items-center.align-content-center.hero {
+  max-width:1000px;
+  width:1000px;
+  border-radius:30px;
+  background-color:rgba(248,198,160,0.8);
+}
+
+.hero > p {
+  font-weight:600;
+  font-size:larger;
+}
+
+.btn.btn-primary.hero-btn {
+  background:white;
+  border:3px solid white;
+  border-radius:25px;
+  width:250px;
+  font-weight:700;
+  color:#f8c6a0;
+}
+
+.btn.btn-primary.hero-btn:hover {
+  background:rgb(248,198,160);
+  color:white;
+}
+
+#date {
+  background-color:#000080;
+  margin:0;
+  padding:40px 20px;
+  text-align:center;
+  color:white;
+}
+
+.date-div {
+  background-color:#f9ecd4;
+  color:#000080;
+  height:150px;
+  width:150px;
+  left:0;
+  right:0;
+  margin:auto;
+  border-radius:50%;
+  margin-bottom:20px;
+  margin-top:20px;
+}
+
+.container.date {
+  max-width:1000px;
+}
+
+.date > h1 {
+  margin:20px 0px 40px;
+}
+
+.no-date {
+  font-weight:800;
+}
+
+#about {
+  margin:0;
+  padding:80px 20px;
+  text-align:center;
+  background-color:rgba(246,219,172,0.58);
+  color:#000080;
+}
+
+.about > h1 {
+  font-family:inherit;
+  margin-bottom:80px;
+}
+
+.about > p {
+  font-weight:600;
+  margin-bottom:30px;
+}
+
+#couple {
+  margin:0;
+  padding:80px 20px;
+  background-color:#000080;
+  text-align:center;
+}
+
+.container.couple {
+  max-width:1000px;
+}
+
+.card.card-about {
+  background-color:rgba(0,0,0,0);
+  color:#f8cba0;
+}
+
+.card-about > .img-fluid.card-img-top.w-100.d-block {
+  border-radius:50%;
+  max-width:250px;
+  left:0;
+  right:0;
+  margin:auto;
+}
+
+#venue {
+  margin:0;
+  padding:80px 20px;
+  background-color:#f8c6a0;
+  text-align:center;
+  background:url("../../assets/img/chairs.jpg") no-repeat;
+  background-size:cover;
+}
+
+.container.venue {
+  max-width:1000px;
+}
+
+.venue > h1 {
+  color:#f5791b;
+  margin-bottom:80px;
+}
+
+.venue-div {
+  background-color:rgba(244,141,63,0.7);
+  margin:0;
+  padding:60px 0px;
+  color:white;
+  box-shadow:0px 0px 30px black;
+  width:90%;
+  left:0;
+  right:0;
+  margin:auto;
+  border-radius:10px;
+  margin-bottom:40px;
+}
+
+.venue-link {
+  margin-bottom:40px;
+}
+
+#gallery {
+  margin:0;
+  padding:80px 20px;
+  text-align:center;
+  background-color:rgba(246,219,172,0.58);
+}
+
+.container.gallery {
+  max-width:1000px;
+}
+
+.gallery > h1 {
+  color:#f5791b;
+  margin-bottom:80px;
+}
+
+#attanding {
+  margin:0;
+  padding:80px 20px;
+  text-align:center;
+  background-color:black;
+  color:#f6dbac;
+}
+
+.container.attanding {
+  max-width:1000px;
+}
+
+.attending-heading {
+  margin-bottom:40px;
+}
+
+.btn.btn-primary.send {
+  width:100%;
+}
+
+#gifts {
+  margin:0;
+  padding:80px 20px;
+  text-align:center;
+  background-color:black;
+  color:#f6dbac;
+}
+
+.container.gifts {
+  max-width:1000px;
+}
+
+#fs-frm {
+  opacity:0.6;
+}
+
+.contact-clean {
+  background:url(../../assets/img/contact.jpg) no-repeat;
+  background-size:cover;
+}
+
